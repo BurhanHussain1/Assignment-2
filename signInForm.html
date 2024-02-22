@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Validation with JavaScript</title>
+    <style>
+    button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+form{
+    text-align: center;
+}
+
+.c1{
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 1%;
+    padding-right: 4%;
+    
+}
+
+input{
+    width: 200px;
+    height: 25px;
+    
+}
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.c3{
+    background-color: bisque;
+    margin-top: 200px;
+    padding-right: 200px;
+    height: 350px;
+}
+    </style>
+</head>
+<body>
+    <div class="c3">
+        <form id="signin-form">
+            <center><h1 style="padding-top: 30px;">SIGN IN PAGE</h1></center>
+        <div class="c1">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div class="c1">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <button type="submit">Sign In</button>
+        </form>
+    </div>
+    <script src="Form.js"></script>
+</body>
+</html>
